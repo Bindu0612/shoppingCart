@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headingWrapper{
+  height:100px;
+  width:inherit;
+  /* background-color: #E93654; */
+  background-image: linear-gradient(violet,skyblue);
+  line-height: 100px;
+  padding: 0 25px;
+  font-family: "Times New Roman", Helvetica,  sans-serif; 
+}
+
+.floatRight {
+  float: right;
+  color: white;
+  width:20%;
+  line-height: 50px;
+}
+
+.floatLeft {
+  float: left;
+  color: white;
+  width: 80%;
+  line-height: 50px;
+  
+}
+
+.category{
+  width:30%;
+  margin-right:2%;
+  display:inline-block;
+}
+
+.images{
+  width:300px;
+  margin-top: 10px;
+  padding-left: 10%;
+  height: 300px;
+}
+
+.categoryStyle{
+text-align:center;
+font-variant: small-caps;
+color: #85254F;
+text-decoration: underline;
+font-size: 25px;
+margin-left: 40%;
+/* background-image: linear-gradient(red, yellow); */
+}
+
+.cartImages{
+  width: 280px;
+  margin-top: 10px;
+  padding-left: 10%;
+  height: 170px;
+  float:left;
+
+}
+.checkoutData{
+  padding-left: 1%;
+  float: right;
+  width: 65%;
+  flex: 1 1;
+  z-index: 2;
+  position: relative;
+  background-color: bisque;
+  width: 68%;
+  margin-top: 50px;
+  padding-left: 1%;
+  height: 100px;
+  float: right;
+  line-height: 100px;
+}
+.pagination-react {
+  margin: 15px auto;
+  width: 200px;
+}
+.clear{
+  clear:both;
+}
+.alignRight{
+  text-align:right;
+  margin:30px;
+}
+
+.buttonBuy{
+  padding-left: 1%;
+  float: right;
+  width: 65%;
+  flex: 1 1;
+  z-index: 2;
+  position: relative;
+  margin:30px;
+}
+
+.buttonStyle {
+  border-radius: 0;
+  width: 10%;
+  height: 20px;
+  padding-left: 2px;
+}
+
+.authenticationButtonStyle{
+    border-radius: 0;
+    width: 53px; 
+    height: 18px;
+    margin-left: 2px;
+    /* font-family: inherit; 
+    font-size: inherit; */
+     line-height: 0px;
+} 
+
+.loaderSpinner{
+  position: relative;
+  height:100px;
+  width:100px;
+  text-align:"center";
+  color:red;
+}
